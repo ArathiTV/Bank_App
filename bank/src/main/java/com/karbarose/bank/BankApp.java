@@ -25,7 +25,8 @@ public class BankApp {
 				login.showLogin();				
 				break;
 			case 2:
-				System.out.println("Acoount creation");
+				CreateAccount account = new CreateAccount();
+				account.createAccount();
 				break;
 			case 3:
 				System.out.println("Exiting...");
